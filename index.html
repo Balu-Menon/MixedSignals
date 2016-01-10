@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Mixed Signals | Alpha</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <nav class="loginnav" role="navigation">
+    <div class="nav-wrapper abc">
+      <!--ul class="left hide-on-med-and-down">
+        <li>
+          <a href="#" onclick="Materialize.toast('Call us in: +91 812 913 0866', 4000)">
+            <i class="material-icons left">perm_phone_msg</i>+91 812 913 0866
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="Materialize.toast('Mail us at: help@trippdeals.com', 4000)">
+            <i class="material-icons left">email</i>help@trippdeals.com
+          </a>
+        </li>
+      </ul-->
+
+      <ul id="topNAV" class="right">
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)"><i class="fa fa-youtube-play"></i></a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)">Blog</a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)">Let's Join Hands</a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)">About Us</a></li>
+        <li><a href="#" onclick="Materialize.toast('We are working on it. Stay tuned!', 4000)"><i class="material-icons right">power_settings_new</i>Login / Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+ <nav class="white mainnav" role="navigation">
+    <div class="nav-wrapper">
+    <a id="logo-container" href="#" class="brand-logo black-text">
+      <img id="logot" src="img/ms2.png">
+    </a>
+      <ul class="left hide-on-med-and-down" id="leftNAV">
+        <li class=""><a class="" style="" href="#">Home</a></li>
+        <li><a class="" style="padding-left:1em;padding-right:1em;" href="#">Our Work<i class="fa fa-chevron-right"></i></a></li>
+        <li><a class="" style="padding-left:1em;padding-right:1em;" href="#">Get Involved</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down" id="rightNAV">
+        <li><a class="" href="#" target="_blank"><i class="fa fa-shopping-cart"></i></a></li>
+        <li><a class="" href="#" target="_blank"><i class="fa fa-search"></i></a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->  
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/slide1.jpg" alt="First slide">
+          <div class="carousel-caption">
+          <div class="hero__text center-text wrapper">
+               <h1 class="hero__heading"><span style="font-family:myThirdFont;font-size:75px;text-shadow:0px 0px 20px #333333;">Reese Witherspoon is “Home”</span></h1>
+               <p class="hero__description">
+                  <span style="font-family:myFirstFont;font-size:24px;text-shadow:0px 0px 6px #333333;">“By lending my voice to nature, I hope to remind people at this critical moment that people need nature and its great gifts.”</span>
+               </p>
+               <p class="hero__button"><a href="#" class="btn--green">Register Now</a></p>
+            </div></div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/slide2.jpg" alt="Second slide">
+          <div class="hero__text center-text wrapper">
+               <h1 class="hero__heading"><span style="font-family:myThirdFont;font-size:75px;text-shadow:0px 0px 20px #333333;">Reese Witherspoon is “Home”</span></h1>
+               <p class="hero__description">
+                  <span style="font-family:myFirstFont;font-size:24px;text-shadow:0px 0px 6px #333333;">“By lending my voice to nature, I hope to remind people at this critical moment that people need nature and its great gifts.”</span>
+               </p>
+               <p class="hero__button"><a href="#" class="btn--green">Read More</a></p>
+            </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/slide3.jpg" alt="Third slide">
+          <div class="hero__text center-text wrapper">
+               <h1 class="hero__heading"><span style="font-family:myThirdFont;font-size:75px;text-shadow:0px 0px 20px #333333;">Reese Witherspoon is “Home”</span></h1>
+               <p class="hero__description">
+                  <span style="font-family:myFirstFont;font-size:24px;text-shadow:0px 0px 6px #333333;">“By lending my voice to nature, I hope to remind people at this critical moment that people need nature and its great gifts.”</span>
+               </p>
+               <p class="hero__button"><a href="#" class="btn--green">Watch Video Now</a></p>
+            </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators carousel__control--bullets">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>     
+      <div class="hero_arrow_down"><img src="img/arrow_down.png" class="heroScrollDown" style="cursor:pointer"></div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel__control--prev size--large" style="top: 300px;" role="button" data-slide="prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel__control--next size--large" style="top: 300px;"></span>
+      </a>
+    </div><!-- /.carousel -->
+
+  <section class="wrapper pv3 center-text">
+                                       <h1 class="h1--logomark--top" style="text-align&#58;center;">Model Engineering College</h1>
+                                       <h2 class="h2--sub">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                                       </h2>
+                                       <h2 style="text-align&#58;center;"> 
+                                          <span class="ms-rteThemeForeColor-1-3" style="text-decoration&#58;none;"><span style="text-decoration&#58;none;">placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis</span></span>
+                                       </h2>
+                                       <h2 style="text-align&#58;center;"> 
+                                          <span class="ms-rteThemeForeColor-1-3" style="text-decoration&#58;none;"><span style="text-decoration&#58;none;">lectores legere me lius quod ii legunt saepius. Claritas est etiam processus</span></span>
+                                       </h2>
+                                    </section>
+                                    <section class="wrapper pv3 center-text"></section>
+                                    <section class="wrapper pv3 center-text"> </section>
+
+                              <section class="home-values" id="ciTemporaryId">
+
+    <ul class="values-list wrapper--no-gutters contain" data-component="values">
+        
+        <li class="value">
+            <div class="value__contents">
+                <div class="value__title">
+                    <h3 class="h3--logomark--top">
+                        We Are
+                        <span>Innovators</span>
+                    </h3>
+                </div>
+                <div class="value__details">
+                    <h3 class="value__details__title">We Are Innovators</h3>
+                    <p class="value__details__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div>
+        </li>
+        
+        <li class="value">
+            <div class="value__contents">
+                <div class="value__title">
+                    <h3 class="h3--logomark--top">
+                        We Are
+                        <span>Collaborative</span>
+                    </h3>
+                </div>
+                <div class="value__details">
+                    <h3 class="value__details__title">We Are Collaborative</h3>
+                    <p class="value__details__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div>
+        </li>
+        
+        <li class="value">
+            <div class="value__contents">
+                <div class="value__title">
+                    <h3 class="h3--logomark--top">
+                        We Are
+                        <span>Visionaries</span>
+                    </h3>
+                </div>
+                <div class="value__details">
+                    <h3 class="value__details__title">We Are Visionaries</h3>
+                    <p class="value__details__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div>
+        </li>
+        
+        <li class="value">
+            <div class="value__contents">
+                <div class="value__title">
+                    <h3 class="h3--logomark--top">
+                        We Are
+                        <span>Powerful</span>
+                    </h3>
+                </div>
+                <div class="value__details">
+                    <h3 class="value__details__title">We Are Powerful</h3>
+                    <p class="value__details__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </li>
+        
+    </ul>
+</section>      
+  
+  <section class="wrapper" id="what-happens-when-support-ci">
+   <h1 class="h1--logomark--top"> Why Mixed Signals?</h1>
+   <div class="grid"><div class="gi large--one-fourth"><center> 
+            <img src="img/support-ci-1.png" alt=""> 
+         </center><p> We 
+            <b style="color:#f79320;">put your money right to work</b> in the places where it’s needed most — because the issues we’re tackling require urgent action. </p></div><div class="gi large--one-fourth"><center> 
+            <img src="img/support-ci-2.jpg" alt=""> 
+         </center><p>We 
+            <b style="color:#4ba947;">match your funds</b> with contributions from governments, foundations and other donors. Every donation, no matter how small, supports planet-sized change.</p></div><div class="gi large--one-fourth"><center> 
+            <img src="img/support-ci-3.jpg" alt=""> 
+         </center><p>We 
+            <b style="color:#f16d25;">join forces with more than 2,000 partners</b> around the world to get things done. Since we were founded, we have helped to protect more than&nbsp;3.4 million square kilometers (1.3 million square miles)&nbsp;of land and sea.</p></div><div class="gi large--one-fourth"><center> 
+            <img src="img/support-ci-4.jpg" alt=""> 
+         </center><p>We use your support to 
+            <b style="color:#1392d1;">find big-picture solutions</b> to global problems. We are not looking at one sector or one issue — and we’re not interested in short-term fixes.</p></div></div>
+   <p>&nbsp;</p> 
+   <center>
+      <a class="btn--green" href="#">Donate Now</a> </center>
+   <p>&nbsp;</p></section>
+   <section class="wrapper" id="what-happens-when-support-ci"></section>
+   <section class="wrapper" id="what-happens-when-support-ci"></section>
+   <div class="rowDividerControl ciModule ms-rtestate-read ms-rte-wpbox"><section class="row-divider--image" style="height:19px;"></section></div>
+
+   <!--div class="newsletterControl ciModule ms-rtestate-read ms-rte-wpbox">
+  <section class="wrapper pt2 pb8 bg-shade public">
+
+  <div class="newsletterForm">
+    
+      <h2 class="h1--logomark--top public">Join Us</h2>
+      <h3 class="h1--sub public">We can’t do our work without you.</h3>
+    
+    <div class="single-field-form--thick" id="newsletterSubscribe" style="text-align: center;">
+      <label class="screen-reader" for="cons_email">Your Email Address</label>
+      <input type="email" class="single-field-form__input public" placeholder="your email address" id="cons_email" name="cons_email">
+      <div class="single-field-form__button public"></div>
+      <span class="emailError twoColumnHide">Please enter a valid email address.</span>
+    </div>
+  </div>
+  <div class="newsletterConfirmation twoColumnHide">
+    <h2 class="h1--logomark--top public">Thank you for joining</h2>
+    <h3 class="h1--sub public">We can't protect the planet without your support&#8203;</h3>
+  </div>
+</section></div-->
+
+<div class="threeImagesControl ciModule ms-rtestate-read ms-rte-wpbox">
+<section class="wrapper--small-no-gutters mv5 pt2">
+
+  <div class="grid">
+      
+      <div class="gi medium--one-third">
+        <h5 class="h5--green mb1em left-text wrapper--medium-no-gutters">Our Impact</h5>
+        <article class="home-promo left-text">
+          <a href="#">
+          <span class="home-promo__photo" data-picture="" data-alt="© World Agroforestry Centre/Yusuf Ahmad">           
+            <span data-src="img/IMG1.jpg"></span>
+            <span data-src="img/IMG1.jpg" data-media="(-webkit-min-device-pixel-ratio: 2.0)"></span>            
+            <span data-src="img/IMG1.jpg" data-media="(min-width: 590px)"><img alt="© World Agroforestry Centre/Yusuf Ahmad" src="img/IMG1.jpg"></span>
+          </span>
+          </a>
+          <div class="home-promo__text wrapper--medium-no-gutters">
+            <h3 class="h3--blue">Success Stories from 2015</h3>
+            <p>Working with countries, companies and communities around the world, we are making a difference for all of us—for now, and for the future.</p>
+            <p><a href="#" class="btn--green btn--expand">Read More</a></p>
+          </div>
+        </article>
+      </div>
+      
+      <div class="gi medium--one-third">
+        <h5 class="h5--green mb1em left-text wrapper--medium-no-gutters">From the Blog</h5>
+        <article class="home-promo left-text">
+          <a href="#">
+          <span class="home-promo__photo" data-picture="" data-alt="South American tapir (Tapirus terrestris) captured on camera at the TEAM site in Peru’s Yanachaga-Chemillen National Park. (Photo courtesy of the TEAM Network and Missouri Botanical Gardens)">            
+            <span data-src="img/IMG1.jpg"></span>
+            <span data-src="img/IMG1.jpg" data-media="(-webkit-min-device-pixel-ratio: 2.0)"></span>            
+            <span data-src="img/IMG1.jpg" data-media="(min-width: 590px)"><img alt="South American tapir (Tapirus terrestris) captured on camera at the TEAM site in Peru’s Yanachaga-Chemillen National Park. (Photo courtesy of the TEAM Network and Missouri Botanical Gardens)" src="img/IMG1.jpg"></span>
+          </span>
+          </a>
+          <div class="home-promo__text wrapper--medium-no-gutters">
+            <h3 class="h3--blue">How Camera-trap Data Can Help Us Predict Earthquakes</h3>
+            <p>By using camera trap data from the TEAM Network, researchers may have found a way to identify when and where earthquakes will occur.</p>
+            <p><a href="#" class="btn--green btn--expand">Read More</a></p>
+          </div>
+        </article>
+      </div>
+      
+      <div class="gi medium--one-third">
+        <h5 class="h5--green mb1em left-text wrapper--medium-no-gutters">Video</h5>
+        <article class="home-promo left-text">
+          <a href="#">
+          <span class="home-promo__photo" data-picture="" data-alt="">            
+            <span data-src="img/IMG1.jpg"></span>
+            <span data-src="img/IMG1.jpg" data-media="(-webkit-min-device-pixel-ratio: 2.0)"></span>            
+            <span data-src="img/IMG1.jpg" data-media="(min-width: 590px)"><img alt="" src="img/IMG1.jpg"></span>
+          </span>
+          </a>
+          <div class="home-promo__text wrapper--medium-no-gutters">
+            <h3 class="h3--blue">Ecuador's Choice</h3>
+            <p>Fight deforestation or curb poverty? One Amazonian country is showing that you can do both. </p>
+            <p><a href="#" class="btn--green btn--expand">Watch The Video</a></p>
+          </div>
+        </article>
+      </div>
+    
+  </div>
+</section></div>
+
+
+  <footer class="global-footer">
+                    <div class="global-footer__actions">
+                      
+                      <div class="global-footer__actions__wrapper">
+                        
+                        <div class="global-footer__social">
+                          
+                          <ul class="social-links">
+                            
+                            <li class="social-links__header"><h5>Follow</h5></li>
+                            
+                            <li>
+                              <a class="icon-facebook" href="#"><span class="social-link__label">Facebook</span></a>
+                            </li>
+                            <li>
+                              <a class="icon-twitter" href="#"><span class="social-link__label">Twitter</span></a>
+                            </li>
+                            <li>
+                              <a class="icon-youtube" href="#"><span class="social-link__label">Youtube</span></a>
+                            </li>
+                            <li>
+                              <a class="icon-instagram" href="#"><span class="social-link__label">Instagram</span></a>
+                            </li>
+                          </ul>
+                          <div class="global-footer__social__email-signup">
+                            
+                            <h5 class="social-links__header">Keep In Touch</h5>
+                            <p style="padding-top: 10px;">We are always happy to hear from you.</p>
+                            <!--div class="footerNewsletterForm">
+                              
+                              <p>Get the latest updates on our work delivered to your inbox.</p>
+                              
+                              <div class="single-field-form">
+                                
+                                <label class="screen-reader" for="footer_email_address">email</label>
+                                <input type="email" class="single-field-form__input" placeholder="email" id="footer_email_address">
+                                <button class="single-field-form__button" type="submit">Submit</button>
+                                
+                                <span class="emailError twoColumnHide">Please enter a valid email address.</span>
+                              </div>
+                              
+                            </div>
+                            <div class="footerNewsletterConfirmation twoColumnHide">
+                              
+                              <p>Thanks for joining the MS community!</p>
+                              
+                            </div-->
+
+                            <div class="row" style="padding-top:15px;">
+      <div class="col s12 m12">
+        <div class="card-panel white">
+          <span class="black-text">
+            <a href="#" onclick="Materialize.toast('Call us in: +91 812 913 0866', 4000)">
+            <i class="material-icons left">perm_phone_msg</i>Superman: +91 812 913 0866
+          </a>
+          </span>
+        </div>
+      </div>
+      <div class="col s12 m12">
+        <div class="card-panel white">
+          <span class="black-text">
+            <a href="#" onclick="Materialize.toast('Call us in: +91 812 913 0866', 4000)">
+            <i class="material-icons left">perm_phone_msg</i>Ironman: +91 812 913 0866
+          </a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+                          </div>
+                        </div>
+                        <div class="global-footer__utils">
+                          
+                          <div class="global-footer__utils__links">
+                            
+                            <div>
+                              <ul class="list--links">
+                                
+                                <li><h5>Resources</h5></li>
+                                
+                                <li><a href="#">Newsroom</a></li>
+                                
+                                <li><a href="#">Press Releases</a></li>
+                                
+                                <li><a href="#">Find an Expert</a></li>
+                                
+                                <li><a href="#">Videos</a></li>
+                                
+                                <li><a href="#">Blog</a></li>
+                                
+                                <li><a href="#">Events</a></li>
+                                
+                              </ul>
+                              
+                              <ul class="list--links">
+                                
+                                <li><h5>About us</h5></li>
+                                
+                                <li><a href="#">Mission + Vision</a></li>
+                                
+                                <li><a href="#">Board of Members</a></li>
+                                
+                                <li><a href="#">Senior Leadership</a></li>
+                                
+                                <li><a href="#">Annual Reports + Financials</a></li>
+                                
+                                <li><a href="#">Stories</a></li>
+                                
+                              </ul>
+                              
+                              <ul class="list--links">
+                                
+                                <li><h5>list3</h5></li>
+                                
+                                <li><a href="#">Join our Community</a></li>
+                                
+                                <li><a href="#">sjs dsadldkdi skldsdldjdd</a></li>
+                                
+                                <li><a href="#">jasdbkjbu kslccksci kcslc</a></li>
+                                
+                                <li><a href="#">nbskac cjsccslcsj clasa shs</a></li>
+                              </ul>
+                              
+                            </div>
+                            <div class="global-footer__utils__affiliates">
+                              
+                              <div class="global-footer__utils__affiliates__unit--text">
+                                
+                                We're proud to be recognized as a financially
+                                accountable and transparent organization.
+                              </div>
+                                                           
+                              <div class="global-footer__utils__affiliates__unit">
+                                
+                                <img src="img/mec.png">
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <div class="global-footer__utils__pledge">
+                            
+                            <h5>Join our Community</h5>
+                            
+                            <a href="/ineednature"><img width="263" src="img/digit.jpg" alt="Make Your Voice Heard. #INeedNature" class="global-footer__utils__pledge__graphic"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="global-footer__nav">
+                      
+                      <p class="global-footer__nav__logo"><a href="/">Mixed Signals</a></p>
+                      
+                      <ul class="global-footer__nav__links">
+                        
+                        <li><a href="#">Contact Us</a></li>
+                        
+                        <li><a href="#">Terms of Use</a></li>
+                        
+                        <li><a href="#">Privacy Policy</a></li>
+                      </ul>
+                      <span role="contentinfo" class="global-footer__nav__legal">
+                      
+                        © 2016 Mixed Signals, MEC
+                      </span>
+                    </div>
+                  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/flippingCircles.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js"></script>
+        <script>
+            $(document).ready( function() {  
+                $("body").niceScroll({
+                    scrollspeed: 75,
+                    mousescrollstep: 40,
+                    zindex: 5000,
+                    hidecursordelay: 400,
+                    cursoropacitymin: 0.4,
+                    cursoropacitymax: 0.9,
+                    cursorwidth: "10px",
+                    cursorborderradius: "3px",
+                    horizrailenabled: false
+                });
+            });
+        </script>
+  </body>
+</html>

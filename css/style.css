@@ -1,0 +1,498 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/proxima/ProximaNova-Bold-webfont.woff);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../font/proxima/ProximaNova-Light-webfont.woff);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(../font/proxima/proximanovaexcn-bold-webfont.woff2);
+}
+
+@font-face {
+    font-family: myFourthFont;
+    src: url(../font/proxima/ProximaNova-Thin-webfont.woff);
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Oxygen', sans-serif; 
+    font-weight: 300;
+}
+
+h1, h2, h3, .header {
+	font-family: 'Oxygen', sans-serif; 
+    font-weight: 300;
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.loginnav {
+	background-color: #273036;
+	height: 30px;
+}
+
+.loginnav ul li{
+	margin-top:-15px;
+	height: 30px;
+}
+
+.loginnav ul li .material-icons{
+	font-size: 20px;
+}
+
+.mainnav {
+	height: 55px;
+}
+
+.mainnav ul li{
+	line-height: 55px;
+	height: 55px;
+}
+
+.mainnav ul li a{
+	color:#677782;	
+}
+
+.mainnav ul li:hover {
+	background-color: transparent;
+	border-bottom: solid 4px;
+	color:#0F95D3;
+}
+
+.mainnav ul .active {
+	background-color: transparent;
+	border-bottom: solid 4px;
+	color:#0F95D3;
+}
+
+.mainnav #logo-container {
+	padding-top: 3px;
+}	
+
+#menufloat {
+	z-index: 500000;
+}
+
+#logot {
+	height: 7vh;
+	padding-left: 8px;
+	padding-top: 0px;
+	margin-top: -18px;
+}
+
+#logo-container {
+	background: url('../img/shadow.png?1401208016') no-repeat;
+	height: 55px;
+}
+
+#leftNAV {
+	margin-left: 5em;
+}
+
+#leftNAV li a{
+	font-family: 'mySecondFont', sans-serif;
+    font-weight: normal;
+	font-size: 18px;
+	color: #677782;
+	padding-left:2em;
+	padding-right:2em;
+	text-transform: uppercase;
+}
+
+#leftNAV li a i {
+	font-size: 3px;
+	color: #677782;	
+}
+
+#leftNAV li:first-child > a, #rightNAV li:first-child > a, #rightNAV li:last-child > a{
+	background: url('../img/shadow.png?1401208016') no-repeat;
+	height:55px;
+}
+
+.footSad {
+	background: url('../img/shadow.png?1401208016') no-repeat;
+}
+
+#rightNAV li a i{
+	line-height: 55px;
+	font-size: 25px;
+}
+
+#topNAV li a, #topNAV li a i, .abc{
+	color: #bcdced;
+	font-size: 14px;
+}
+
+.headings {
+	height: 250px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+.headtext {
+	text-align: center;
+}
+
+.headtext {
+	color:#252525;
+}
+
+.headtext .h:before, .headtext .h:after, .ft:after {
+	content: ":::";
+	color: #ff5722;
+}  
+
+.founders {
+	height: 350px;	
+}
+
+.founders img{
+	height: 42vh;
+}
+
+#email {
+	height: 54px;
+	width: 250px;
+    font-style: italic;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #303030;
+    border: 0;
+    margin-bottom: 20px;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+@media (min-width: 48em) {
+    .home-values {
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        background-image: url('../img/bg-home-values.jpg?1389106075');
+        background-size: cover;
+    }
+}
+.ie8 .home-values {
+    background-position: 50% 0;
+    min-width: 1200px;
+}
+/* @end */
+/* @group values list */
+/* @end */
+/* @group value block */
+
+.value {
+    /*border: 15px solid #0f95d3;
+  border-bottom-width: 25px;
+  border-top-width: 0;
+  padding: 15px;
+  text-align: center;*/
+}
+.value:first-child {
+    border-top-width: 25px;
+}
+@media (min-width: 48em) {
+    .value {
+        border: 0;
+        display: inline-block;
+        margin: 5% 0;
+        padding: 0;
+        position: relative;
+        height: 0;
+        padding-top: 38.33333%;
+        width: 38.33333%;
+    }
+    .value .value__contents {
+        display: block;
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
+        top: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .value:nth-child(odd) {
+        clear: left;
+        float: left;
+        margin-left: 5%;
+    }
+    .value:nth-child(even) {
+        clear: right;
+        float: right;
+        margin-right: 5%;
+    }
+}
+.ie8 .value {
+    margin: 2.5% 5%;
+}
+@media (min-width: 48em) {
+    .value__contents {
+        margin: auto;
+    }
+}
+/* @end */
+/* @group value text */
+
+.value__title {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+@media (min-width: 48em) {
+    .value__title {
+        border-radius: 50%;
+        margin: 0;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        padding-top: 18%;
+    }
+}
+.ie8 .value__title {
+    background: url('../img/bg-home-value-circle-white-ie8.png?1389106075');
+}
+.value__title h3 {
+    background-size: auto 1.5em;
+    font-size: 1.5em;
+    padding-top: 2.08333em;
+}
+.value__title span {
+    display: block;
+    font-size: 1.16667em;
+    margin: .5em 0 0;
+    padding: .7em 0 .6em;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+}
+.value__title span:before,
+.value__title span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 7em;
+    background: #eeeeee;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+.value__title span:before {
+    top: 0;
+}
+.value__title span:after {
+    bottom: 0;
+}
+@media (min-width: 48em) {
+    .value__title span {
+        font-size: 1em;
+        position: absolute;
+    }
+    .value__title span:before,
+    .value__title span:after {
+        width: 5em;
+    }
+}
+@media (min-width: 60em) {
+    .value__title span {
+        font-size: 1.33333em;
+    }
+}
+@media (min-width: 75em) {
+    .value__title span {
+        font-family: myFourthFont, sans-serif;
+        font-size: 1.75em;
+        font-weight: normal;
+    }
+}
+@media (min-width: 48em) {
+    .value__details {
+        border-radius: 50%;
+        margin: 0;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        background-color: #0f95d3;
+        padding: 15% 7%;
+    }
+}
+.ie8 .value__details {
+    background: url('../images/bg-home-value-circle-blue-ie8.png?1389106075');
+}
+@media (min-width: 60em) {
+    .value__details {
+        padding: 15% 13%;
+    }
+}
+.value__details__title {
+    display: none;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+@media (min-width: 48em) {
+    .value__details__title {
+        display: block;
+        font-size: 1em;
+        margin: 0 1.8em;
+    }
+}
+@media (min-width: 60em) {
+    .value__details__title {
+        font-size: 1.3125em;
+        margin: 0;
+    }
+}
+.value__details__text {
+    color: #677782;
+}
+@media (min-width: 48em) {
+    .value__details__text {
+        color: #fff;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+@media (min-width: 60em) {
+    .value__details__text {
+        font-size: 1.25em;
+        line-height: 1.5;
+    }
+}
+@media (min-width: 75em) {
+    .value__details__text {
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+}
+/* @end */
+/* @group 3d circle flip */
+
+@media (min-width: 48em) {
+    .value {
+        -webkit-perspective: 800px;
+        -moz-perspective: 800px;
+        -o-perspective: 800px;
+        perspective: 800px;
+        position: relative;
+    }
+    .value__contents {
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: -webkit-transform 0.5s ease-in-out;
+        -moz-transition: -moz-transform 0.5s ease-in-out;
+        -o-transition: -o-transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in-out;
+    }
+    .value__title,
+    .value__details {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+    .value__details {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    .value:focus .value__contents,
+    .value:hover .value__contents {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+.ie10 .value__contents {
+    transition: none;
+}
+.ie10 .value__title,
+.ie10 .value__details {
+    transition: transform .5s ease-in-out;
+}
+.ie10 .value:hover .value__contents {
+    transform: rotate(0deg);
+}
+.ie10 .value:hover .value__contents .value__title,
+.ie10 .value:hover .value__contents .value__details {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+.no-csstransforms3d .value__details {
+    display: none;
+}
+.no-csstransforms3d .value:hover .value__contents,
+.no-csstransforms3d .value:hover .value__details {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.no-csstransforms3d .value:hover .value__title {
+    display: none;
+}
+.no-csstransforms3d .value:hover .value__details {
+    display: block;
+}
+
+.h1--logomark--top {
+	font-family: myFourthFont, sans-serif;	
+}
+
+.value__details__title, .list--links li h5, .social-links__header h5, .global-footer__utils__pledge h5, .social-link__label, .social-links__header{
+	font-family: myFirstFont, sans-serif;	
+}
